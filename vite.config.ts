@@ -16,5 +16,11 @@ export default defineConfig((): UserConfig => {
         "Cache-Control": "public, max-age=600",
       },
     },
+    test: {
+      browser: {
+        enabled: true,
+        name: 'chrome',
+      },
+    }
   };
 });
